@@ -1,0 +1,48 @@
+.check1{
+    margin-left: 15%;
+    
+}
+.col-11, .col-1{
+    margin-top: 2%;
+}
+.see{
+    border-radius: 2cm;
+    height: 1.2cm;
+}
+.image{
+    width: 25px;
+}
+
+label {
+    display: grid;
+    grid-template: 1fr / auto 1fr;
+    gap: 12px;
+    
+    
+    border: 1px solid #CFD5DB;
+    border-radius: 5px;
+    background: #fafafa;
+    padding: 12px;
+    color: #6C757D;
+    cursor: text;
+  }
+  
+  label:focus-within {
+    border: 1px solid #000;
+  }
+  
+  label>input {
+    outline: none;
+    border: none;
+    background: transparent;
+  }
+
+.bar{
+    font-size: 0.9cm;
+}
+.second{
+    margin-top: 1cm;
+}
+.third{
+    margin-top: 1cm;
+}
